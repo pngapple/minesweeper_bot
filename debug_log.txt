@@ -1,1733 +1,869 @@
 Press any key in the OpenCV window to close...
 [Tile 0,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,0
-failed to detect: row 0, column 0
+[Tile 0,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,1
-failed to detect: row 0, column 1
+[Tile 0,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,2
-failed to detect: row 0, column 2
+[Tile 0,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,3] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,3
-failed to detect: row 0, column 3
+[Tile 0,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,4] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,4
-failed to detect: row 0, column 4
+[Tile 0,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,5] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,5
-failed to detect: row 0, column 5
+[Tile 0,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,6] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,6
-failed to detect: row 0, column 6
+[Tile 0,6] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,7] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,7
-failed to detect: row 0, column 7
+[Tile 0,7] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,8] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,8
-failed to detect: row 0, column 8
+[Tile 0,8] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,9] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,9
-failed to detect: row 0, column 9
+[Tile 0,9] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,10] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,10
-failed to detect: row 0, column 10
+[Tile 0,10] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,11] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,11
-failed to detect: row 0, column 11
+[Tile 0,11] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,12
-failed to detect: row 0, column 12
+[Tile 0,12] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,13
-failed to detect: row 0, column 13
+[Tile 0,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,14
-failed to detect: row 0, column 14
+[Tile 0,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,15
-failed to detect: row 0, column 15
+[Tile 0,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,16
-failed to detect: row 0, column 16
+[Tile 0,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 0,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 0,17
-failed to detect: row 0, column 17
+[Tile 0,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,0
-failed to detect: row 1, column 0
+[Tile 1,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,1
-failed to detect: row 1, column 1
+[Tile 1,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,2
-failed to detect: row 1, column 2
+[Tile 1,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,3] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,3
-failed to detect: row 1, column 3
+[Tile 1,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,4] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,4
-failed to detect: row 1, column 4
+[Tile 1,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,5] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,5
-failed to detect: row 1, column 5
+[Tile 1,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,6] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,6
-failed to detect: row 1, column 6
+[Tile 1,6] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,7] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,7
-failed to detect: row 1, column 7
+[Tile 1,7] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,8] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,8
-failed to detect: row 1, column 8
+[Tile 1,8] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,9] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,9
-failed to detect: row 1, column 9
+[Tile 1,9] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,10] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,10
-failed to detect: row 1, column 10
+[Tile 1,10] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,11] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,11
-failed to detect: row 1, column 11
+[Tile 1,11] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,12
-failed to detect: row 1, column 12
+[Tile 1,12] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,13
-failed to detect: row 1, column 13
+[Tile 1,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,14
-failed to detect: row 1, column 14
+[Tile 1,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,15
-failed to detect: row 1, column 15
+[Tile 1,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,16
-failed to detect: row 1, column 16
+[Tile 1,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 1,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 1,17
-failed to detect: row 1, column 17
+[Tile 1,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,0
-failed to detect: row 2, column 0
+[Tile 2,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,1
-failed to detect: row 2, column 1
+[Tile 2,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,2
-failed to detect: row 2, column 2
+[Tile 2,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,3] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,3
-failed to detect: row 2, column 3
+[Tile 2,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,4] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,4
-failed to detect: row 2, column 4
+[Tile 2,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,5] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,5
-failed to detect: row 2, column 5
+[Tile 2,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,6] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,6
-failed to detect: row 2, column 6
+[Tile 2,6] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,7] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,7
-failed to detect: row 2, column 7
+[Tile 2,7] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,8] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,8
-failed to detect: row 2, column 8
-[Tile 2,9] Edge count: 100
-   Num 1 score: 0.283
-   Num 2 score: 0.031
-   Num 3 score: -0.133
-   Num 4 score: 0.044
-✅ Matched number 1 with score 0.283
-[Tile 2,10] Edge count: 75
-   Num 1 score: 0.355
-   Num 2 score: 0.043
-   Num 3 score: -0.104
-   Num 4 score: 0.091
-✅ Matched number 1 with score 0.355
-[Tile 2,11] Edge count: 100
-   Num 1 score: 0.281
-   Num 2 score: 0.008
-   Num 3 score: -0.069
-   Num 4 score: 0.047
-✅ Matched number 1 with score 0.281
+[Tile 2,8] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 2,9] Edge count: 0
+[Tile 2,9] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 2,10] Edge count: 0
+[Tile 2,10] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 2,11] Edge count: 0
+[Tile 2,11] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,12
-failed to detect: row 2, column 12
+[Tile 2,12] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,13
-failed to detect: row 2, column 13
+[Tile 2,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,14
-failed to detect: row 2, column 14
+[Tile 2,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,15
-failed to detect: row 2, column 15
+[Tile 2,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,16
-failed to detect: row 2, column 16
+[Tile 2,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 2,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 2,17
-failed to detect: row 2, column 17
+[Tile 2,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 3,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 3,0
-failed to detect: row 3, column 0
+[Tile 3,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 3,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 3,1
-failed to detect: row 3, column 1
+[Tile 3,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 3,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 3,2
-failed to detect: row 3, column 2
+[Tile 3,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 3,3] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 3,3
-failed to detect: row 3, column 3
+[Tile 3,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 3,4] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 3,4
-failed to detect: row 3, column 4
+[Tile 3,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 3,5] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 3,5
-failed to detect: row 3, column 5
-[Tile 3,6] Edge count: 100
-   Num 1 score: 0.283
-   Num 2 score: 0.031
-   Num 3 score: -0.133
-   Num 4 score: 0.044
-✅ Matched number 1 with score 0.283
-[Tile 3,7] Edge count: 75
-   Num 1 score: 0.355
-   Num 2 score: 0.043
-   Num 3 score: -0.104
-   Num 4 score: 0.091
-✅ Matched number 1 with score 0.355
-[Tile 3,8] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
-[Tile 3,9] Edge count: 48
-   Num 1 score: 0.479
-   Num 2 score: 0.098
-   Num 3 score: -0.062
-   Num 4 score: 0.144
-✅ Matched number 1 with score 0.479
-[Tile 3,10] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 3,10
-failed to detect: row 3, column 10
-[Tile 3,11] Edge count: 75
-   Num 1 score: 0.378
-   Num 2 score: 0.069
-   Num 3 score: 0.209
-   Num 4 score: 0.091
-✅ Matched number 1 with score 0.378
-[Tile 3,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 3,12
-failed to detect: row 3, column 12
-[Tile 3,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 3,13
-failed to detect: row 3, column 13
-[Tile 3,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 3,14
-failed to detect: row 3, column 14
-[Tile 3,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 3,15
-failed to detect: row 3, column 15
-[Tile 3,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 3,16
-failed to detect: row 3, column 16
-[Tile 3,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 3,17
-failed to detect: row 3, column 17
-[Tile 4,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,0
-failed to detect: row 4, column 0
-[Tile 4,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,1
-failed to detect: row 4, column 1
-[Tile 4,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,2
-failed to detect: row 4, column 2
-[Tile 4,3] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,3
-failed to detect: row 4, column 3
-[Tile 4,4] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,4
-failed to detect: row 4, column 4
-[Tile 4,5] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,5
-failed to detect: row 4, column 5
-[Tile 4,6] Edge count: 75
-   Num 1 score: 0.353
-   Num 2 score: 0.069
-   Num 3 score: -0.104
-   Num 4 score: 0.072
-✅ Matched number 1 with score 0.353
-[Tile 4,7] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,7
-failed to detect: row 4, column 7
-[Tile 4,8] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,8
-failed to detect: row 4, column 8
-[Tile 4,9] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,9
-failed to detect: row 4, column 9
-[Tile 4,10] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,10
-failed to detect: row 4, column 10
-[Tile 4,11] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
-[Tile 4,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,12
-failed to detect: row 4, column 12
-[Tile 4,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,13
-failed to detect: row 4, column 13
-[Tile 4,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,14
-failed to detect: row 4, column 14
-[Tile 4,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,15
-failed to detect: row 4, column 15
-[Tile 4,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,16
-failed to detect: row 4, column 16
-[Tile 4,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 4,17
-failed to detect: row 4, column 17
-[Tile 5,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,0
-failed to detect: row 5, column 0
-[Tile 5,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,1
-failed to detect: row 5, column 1
-[Tile 5,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,2
-failed to detect: row 5, column 2
-[Tile 5,3] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,3
-failed to detect: row 5, column 3
-[Tile 5,4] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,4
-failed to detect: row 5, column 4
-[Tile 5,5] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,5
-failed to detect: row 5, column 5
-[Tile 5,6] Edge count: 140
-   Num 1 score: 0.204
-   Num 2 score: 0.469
-   Num 3 score: 0.090
-   Num 4 score: 0.096
-✅ Matched number 2 with score 0.469
-[Tile 5,7] Edge count: 75
-   Num 1 score: 0.353
-   Num 2 score: 0.096
-   Num 3 score: 0.199
-   Num 4 score: 0.072
-✅ Matched number 1 with score 0.353
-[Tile 5,8] Edge count: 48
-   Num 1 score: 0.479
-   Num 2 score: 0.147
-   Num 3 score: -0.036
-   Num 4 score: 0.144
-✅ Matched number 1 with score 0.479
-[Tile 5,9] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,9
-failed to detect: row 5, column 9
-[Tile 5,10] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,10
-failed to detect: row 5, column 10
-[Tile 5,11] Edge count: 75
-   Num 1 score: 0.378
-   Num 2 score: 0.069
-   Num 3 score: 0.209
-   Num 4 score: 0.091
-✅ Matched number 1 with score 0.378
-[Tile 5,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,12
-failed to detect: row 5, column 12
-[Tile 5,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,13
-failed to detect: row 5, column 13
-[Tile 5,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,14
-failed to detect: row 5, column 14
-[Tile 5,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,15
-failed to detect: row 5, column 15
-[Tile 5,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,16
-failed to detect: row 5, column 16
-[Tile 5,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 5,17
-failed to detect: row 5, column 17
-[Tile 6,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,0
-failed to detect: row 6, column 0
-[Tile 6,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,1
-failed to detect: row 6, column 1
-[Tile 6,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,2
-failed to detect: row 6, column 2
-[Tile 6,3] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,3
-failed to detect: row 6, column 3
-[Tile 6,4] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,4
-failed to detect: row 6, column 4
-[Tile 6,5] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,5
-failed to detect: row 6, column 5
-[Tile 6,6] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,6
-failed to detect: row 6, column 6
-[Tile 6,7] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,7
-failed to detect: row 6, column 7
-[Tile 6,8] Edge count: 75
-   Num 1 score: 0.353
-   Num 2 score: 0.069
-   Num 3 score: -0.104
-   Num 4 score: 0.072
-✅ Matched number 1 with score 0.353
-[Tile 6,9] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,9
-failed to detect: row 6, column 9
-[Tile 6,10] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,10
-failed to detect: row 6, column 10
-[Tile 6,11] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
-[Tile 6,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,12
-failed to detect: row 6, column 12
-[Tile 6,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,13
-failed to detect: row 6, column 13
-[Tile 6,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,14
-failed to detect: row 6, column 14
-[Tile 6,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,15
-failed to detect: row 6, column 15
-[Tile 6,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,16
-failed to detect: row 6, column 16
-[Tile 6,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 6,17
-failed to detect: row 6, column 17
-[Tile 7,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 7,0
-failed to detect: row 7, column 0
-[Tile 7,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 7,1
-failed to detect: row 7, column 1
-[Tile 7,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 7,2
-failed to detect: row 7, column 2
-[Tile 7,3] Edge count: 139
-   Num 1 score: 0.206
-   Num 2 score: 0.471
-   Num 3 score: 0.044
-   Num 4 score: 0.112
-✅ Matched number 2 with score 0.471
-[Tile 7,4] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
-[Tile 7,5] Edge count: 75
-   Num 1 score: 0.355
-   Num 2 score: 0.043
-   Num 3 score: -0.104
-   Num 4 score: 0.091
-✅ Matched number 1 with score 0.355
-[Tile 7,6] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
-[Tile 7,7] Edge count: 75
-   Num 1 score: 0.355
-   Num 2 score: 0.043
-   Num 3 score: -0.104
-   Num 4 score: 0.091
-✅ Matched number 1 with score 0.355
-[Tile 7,8] Edge count: 48
-   Num 1 score: 0.479
-   Num 2 score: 0.098
-   Num 3 score: -0.062
-   Num 4 score: 0.144
-✅ Matched number 1 with score 0.479
-[Tile 7,9] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 7,9
-failed to detect: row 7, column 9
-[Tile 7,10] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 7,10
-failed to detect: row 7, column 10
-[Tile 7,11] Edge count: 75
-   Num 1 score: 0.378
-   Num 2 score: 0.069
-   Num 3 score: 0.209
-   Num 4 score: 0.091
-✅ Matched number 1 with score 0.378
-[Tile 7,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 7,12
-failed to detect: row 7, column 12
-[Tile 7,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 7,13
-failed to detect: row 7, column 13
-[Tile 7,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 7,14
-failed to detect: row 7, column 14
-[Tile 7,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 7,15
-failed to detect: row 7, column 15
-[Tile 7,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 7,16
-failed to detect: row 7, column 16
-[Tile 7,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 7,17
-failed to detect: row 7, column 17
-[Tile 8,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,0
-failed to detect: row 8, column 0
-[Tile 8,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,1
-failed to detect: row 8, column 1
-[Tile 8,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,2
-failed to detect: row 8, column 2
-[Tile 8,3] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
-[Tile 8,4] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,4
-failed to detect: row 8, column 4
-[Tile 8,5] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,5
-failed to detect: row 8, column 5
-[Tile 8,6] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,6
-failed to detect: row 8, column 6
-[Tile 8,7] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,7
-failed to detect: row 8, column 7
-[Tile 8,8] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,8
-failed to detect: row 8, column 8
-[Tile 8,9] Edge count: 48
-   Num 1 score: 0.479
-   Num 2 score: 0.147
-   Num 3 score: -0.036
-   Num 4 score: 0.144
-✅ Matched number 1 with score 0.479
-[Tile 8,10] Edge count: 114
-   Num 1 score: 0.250
-   Num 2 score: 0.562
-   Num 3 score: 0.339
-   Num 4 score: 0.140
-✅ Matched number 2 with score 0.562
-[Tile 8,11] Edge count: 126
-   Num 1 score: 0.037
+[Tile 3,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 3,6] Edge count: 140
+   Num 1 score: 0.123
+   Num 2 score: 0.489
+   Num 3 score: 0.082
+   Num 4 score: 0.079
+✅ Matched number 2 with score 0.489
+[Tile 3,7] Edge count: 114
+   Num 1 score: 0.156
+   Num 2 score: 0.518
+   Num 3 score: 0.132
+   Num 4 score: 0.113
+✅ Matched number 2 with score 0.518
+[Tile 3,8] Edge count: 126
+   Num 1 score: 0.056
    Num 2 score: 0.073
-   Num 3 score: 0.153
-   Num 4 score: 0.297
-✅ Matched number 4 with score 0.297
-[Tile 8,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,12
-failed to detect: row 8, column 12
-[Tile 8,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,13
-failed to detect: row 8, column 13
-[Tile 8,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,14
-failed to detect: row 8, column 14
-[Tile 8,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,15
-failed to detect: row 8, column 15
-[Tile 8,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,16
-failed to detect: row 8, column 16
-[Tile 8,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 8,17
-failed to detect: row 8, column 17
-[Tile 9,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,0
-failed to detect: row 9, column 0
-[Tile 9,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,1
-failed to detect: row 9, column 1
-[Tile 9,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,2
-failed to detect: row 9, column 2
-[Tile 9,3] Edge count: 139
-   Num 1 score: 0.205
-   Num 2 score: 0.471
-   Num 3 score: 0.236
-   Num 4 score: 0.097
-✅ Matched number 2 with score 0.471
-[Tile 9,4] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
-[Tile 9,5] Edge count: 48
-   Num 1 score: 0.479
-   Num 2 score: 0.147
-   Num 3 score: -0.036
-   Num 4 score: 0.144
-✅ Matched number 1 with score 0.479
-[Tile 9,6] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,6
-failed to detect: row 9, column 6
-[Tile 9,7] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,7
-failed to detect: row 9, column 7
-[Tile 9,8] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,8
-failed to detect: row 9, column 8
-[Tile 9,9] Edge count: 75
-   Num 1 score: 0.378
+   Num 3 score: 0.019
+   Num 4 score: 0.246
+❌ No number match above threshold (best=0.246)
+failed to detect: row 3, column 8
+[Tile 3,9] Edge count: 0
+[Tile 3,9] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 3,10] Edge count: 0
+[Tile 3,10] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 3,11] Edge count: 0
+[Tile 3,11] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 3,12] Edge count: 0
+[Tile 3,12] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 3,13] Edge count: 0
+[Tile 3,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 3,14] Edge count: 0
+[Tile 3,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 3,15] Edge count: 0
+[Tile 3,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 3,16] Edge count: 0
+[Tile 3,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 3,17] Edge count: 0
+[Tile 3,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,0] Edge count: 0
+[Tile 4,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,1] Edge count: 0
+[Tile 4,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,2] Edge count: 0
+[Tile 4,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,3] Edge count: 0
+[Tile 4,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,4] Edge count: 0
+[Tile 4,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,5] Edge count: 0
+[Tile 4,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,6] Edge count: 75
+   Num 1 score: 0.366
    Num 2 score: 0.069
-   Num 3 score: 0.209
-   Num 4 score: 0.091
-✅ Matched number 1 with score 0.378
-[Tile 9,10] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,10
-failed to detect: row 9, column 10
-[Tile 9,11] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,11
-failed to detect: row 9, column 11
-[Tile 9,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,12
-failed to detect: row 9, column 12
-[Tile 9,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,13
-failed to detect: row 9, column 13
-[Tile 9,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,14
-failed to detect: row 9, column 14
-[Tile 9,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,15
-failed to detect: row 9, column 15
-[Tile 9,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,16
-failed to detect: row 9, column 16
-[Tile 9,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 9,17
-failed to detect: row 9, column 17
-[Tile 10,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,0
-failed to detect: row 10, column 0
-[Tile 10,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,1
-failed to detect: row 10, column 1
-[Tile 10,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,2
-failed to detect: row 10, column 2
-[Tile 10,3] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,3
-failed to detect: row 10, column 3
-[Tile 10,4] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,4
-failed to detect: row 10, column 4
-[Tile 10,5] Edge count: 45
-   Num 1 score: 0.499
+   Num 3 score: -0.068
+   Num 4 score: -0.005
+✅ Matched number 1 with score 0.366
+[Tile 4,7] Edge count: 0
+[Tile 4,7] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 4,8] Edge count: 114
+   Num 1 score: 0.156
+   Num 2 score: 0.540
+   Num 3 score: 0.377
+   Num 4 score: 0.113
+✅ Matched number 2 with score 0.540
+[Tile 4,9] Edge count: 0
+[Tile 4,9] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,10] Edge count: 0
+[Tile 4,10] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,11] Edge count: 0
+[Tile 4,11] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,12] Edge count: 0
+[Tile 4,12] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,13] Edge count: 0
+[Tile 4,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,14] Edge count: 0
+[Tile 4,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,15] Edge count: 0
+[Tile 4,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,16] Edge count: 0
+[Tile 4,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,17] Edge count: 0
+[Tile 4,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 5,0] Edge count: 0
+[Tile 5,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 5,1] Edge count: 0
+[Tile 5,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 5,2] Edge count: 0
+[Tile 5,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 5,3] Edge count: 0
+[Tile 5,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 5,4] Edge count: 0
+[Tile 5,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 5,5] Edge count: 0
+[Tile 5,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 5,6] Edge count: 45
+   Num 1 score: 0.501
    Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
-[Tile 10,6] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,6
-failed to detect: row 10, column 6
-[Tile 10,7] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,7
-failed to detect: row 10, column 7
-[Tile 10,8] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,8
-failed to detect: row 10, column 8
-[Tile 10,9] Edge count: 48
-   Num 1 score: 0.511
+   Num 3 score: -0.023
+   Num 4 score: 0.040
+✅ Matched number 1 with score 0.501
+[Tile 5,7] Edge count: 0
+[Tile 5,7] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 5,8] Edge count: 48
+   Num 1 score: 0.547
    Num 2 score: 0.098
-   Num 3 score: -0.036
-   Num 4 score: 0.144
-✅ Matched number 1 with score 0.511
-[Tile 10,10] Edge count: 139
-   Num 1 score: 0.205
-   Num 2 score: 0.471
-   Num 3 score: 0.244
+   Num 3 score: -0.005
+   Num 4 score: 0.035
+✅ Matched number 1 with score 0.547
+[Tile 5,9] Edge count: 114
+   Num 1 score: 0.156
+   Num 2 score: 0.518
+   Num 3 score: 0.132
+   Num 4 score: 0.113
+✅ Matched number 2 with score 0.518
+[Tile 5,10] Edge count: 138
+   Num 1 score: 0.058
+   Num 2 score: 0.291
+   Num 3 score: 0.140
    Num 4 score: 0.115
-✅ Matched number 2 with score 0.471
-[Tile 10,11] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,11
-failed to detect: row 10, column 11
-[Tile 10,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,12
-failed to detect: row 10, column 12
-[Tile 10,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,13
-failed to detect: row 10, column 13
-[Tile 10,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,14
-failed to detect: row 10, column 14
-[Tile 10,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,15
-failed to detect: row 10, column 15
-[Tile 10,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,16
-failed to detect: row 10, column 16
-[Tile 10,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 10,17
-failed to detect: row 10, column 17
-[Tile 11,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,0
-failed to detect: row 11, column 0
-[Tile 11,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,1
-failed to detect: row 11, column 1
-[Tile 11,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,2
-failed to detect: row 11, column 2
-[Tile 11,3] Edge count: 139
-   Num 1 score: 0.206
-   Num 2 score: 0.471
-   Num 3 score: 0.044
-   Num 4 score: 0.112
-✅ Matched number 2 with score 0.471
-[Tile 11,4] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
-[Tile 11,5] Edge count: 48
-   Num 1 score: 0.479
+✅ Matched number 2 with score 0.291
+[Tile 5,11] Edge count: 0
+[Tile 5,11] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 5,12] Edge count: 0
+[Tile 5,12] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 5,13] Edge count: 0
+[Tile 5,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 5,14] Edge count: 0
+[Tile 5,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 5,15] Edge count: 0
+[Tile 5,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 5,16] Edge count: 0
+[Tile 5,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 5,17] Edge count: 0
+[Tile 5,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 6,0] Edge count: 0
+[Tile 6,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 6,1] Edge count: 0
+[Tile 6,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 6,2] Edge count: 0
+[Tile 6,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 6,3] Edge count: 0
+[Tile 6,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 6,4] Edge count: 0
+[Tile 6,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 6,5] Edge count: 0
+[Tile 6,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 6,6] Edge count: 75
+   Num 1 score: 0.366
+   Num 2 score: 0.069
+   Num 3 score: -0.068
+   Num 4 score: -0.005
+✅ Matched number 1 with score 0.366
+[Tile 6,7] Edge count: 0
+[Tile 6,7] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 6,8] Edge count: 0
+[Tile 6,8] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 6,9] Edge count: 0
+[Tile 6,9] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 6,10] Edge count: 75
+   Num 1 score: 0.401
+   Num 2 score: 0.069
+   Num 3 score: 0.226
+   Num 4 score: 0.010
+✅ Matched number 1 with score 0.401
+[Tile 6,11] Edge count: 0
+[Tile 6,11] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 6,12] Edge count: 0
+[Tile 6,12] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 6,13] Edge count: 0
+[Tile 6,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 6,14] Edge count: 0
+[Tile 6,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 6,15] Edge count: 0
+[Tile 6,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 6,16] Edge count: 0
+[Tile 6,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 6,17] Edge count: 0
+[Tile 6,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 7,0] Edge count: 0
+[Tile 7,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 7,1] Edge count: 0
+[Tile 7,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 7,2] Edge count: 0
+[Tile 7,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 7,3] Edge count: 0
+[Tile 7,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 7,4] Edge count: 0
+[Tile 7,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 7,5] Edge count: 0
+[Tile 7,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 7,6] Edge count: 140
+   Num 1 score: 0.097
+   Num 2 score: 0.469
+   Num 3 score: 0.074
+   Num 4 score: 0.068
+✅ Matched number 2 with score 0.469
+[Tile 7,7] Edge count: 75
+   Num 1 score: 0.366
+   Num 2 score: 0.096
+   Num 3 score: 0.216
+   Num 4 score: -0.005
+✅ Matched number 1 with score 0.366
+[Tile 7,8] Edge count: 48
+   Num 1 score: 0.482
+   Num 2 score: 0.147
+   Num 3 score: -0.005
+   Num 4 score: 0.035
+✅ Matched number 1 with score 0.482
+[Tile 7,9] Edge count: 0
+[Tile 7,9] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 7,10] Edge count: 85
+   Num 1 score: 0.170
+   Num 2 score: 0.652
+   Num 3 score: 0.186
+   Num 4 score: 0.148
+✅ Matched number 2 with score 0.652
+[Tile 7,11] Edge count: 0
+[Tile 7,11] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 7,12] Edge count: 0
+[Tile 7,12] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 7,13] Edge count: 0
+[Tile 7,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 7,14] Edge count: 0
+[Tile 7,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 7,15] Edge count: 0
+[Tile 7,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 7,16] Edge count: 0
+[Tile 7,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 7,17] Edge count: 0
+[Tile 7,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,0] Edge count: 0
+[Tile 8,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,1] Edge count: 0
+[Tile 8,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,2] Edge count: 0
+[Tile 8,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,3] Edge count: 0
+[Tile 8,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,4] Edge count: 0
+[Tile 8,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,5] Edge count: 0
+[Tile 8,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,6] Edge count: 0
+[Tile 8,6] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,7] Edge count: 0
+[Tile 8,7] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,8] Edge count: 75
+   Num 1 score: 0.366
+   Num 2 score: 0.069
+   Num 3 score: -0.068
+   Num 4 score: -0.005
+✅ Matched number 1 with score 0.366
+[Tile 8,9] Edge count: 0
+[Tile 8,9] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 8,10] Edge count: 75
+   Num 1 score: 0.401
+   Num 2 score: 0.069
+   Num 3 score: 0.226
+   Num 4 score: 0.010
+✅ Matched number 1 with score 0.401
+[Tile 8,11] Edge count: 0
+[Tile 8,11] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,12] Edge count: 0
+[Tile 8,12] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,13] Edge count: 0
+[Tile 8,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,14] Edge count: 0
+[Tile 8,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,15] Edge count: 0
+[Tile 8,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,16] Edge count: 0
+[Tile 8,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 8,17] Edge count: 0
+[Tile 8,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 9,0] Edge count: 0
+[Tile 9,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 9,1] Edge count: 0
+[Tile 9,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 9,2] Edge count: 0
+[Tile 9,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 9,3] Edge count: 0
+[Tile 9,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 9,4] Edge count: 0
+[Tile 9,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 9,5] Edge count: 0
+[Tile 9,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 9,6] Edge count: 140
+   Num 1 score: 0.123
+   Num 2 score: 0.489
+   Num 3 score: 0.082
+   Num 4 score: 0.079
+✅ Matched number 2 with score 0.489
+[Tile 9,7] Edge count: 75
+   Num 1 score: 0.401
+   Num 2 score: 0.043
+   Num 3 score: -0.068
+   Num 4 score: 0.010
+✅ Matched number 1 with score 0.401
+[Tile 9,8] Edge count: 48
+   Num 1 score: 0.482
    Num 2 score: 0.098
-   Num 3 score: -0.062
-   Num 4 score: 0.144
-✅ Matched number 1 with score 0.479
-[Tile 11,6] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,6
-failed to detect: row 11, column 6
+   Num 3 score: -0.030
+   Num 4 score: 0.035
+✅ Matched number 1 with score 0.482
+[Tile 9,9] Edge count: 0
+[Tile 9,9] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 9,10] Edge count: 48
+   Num 1 score: 0.547
+   Num 2 score: 0.098
+   Num 3 score: -0.005
+   Num 4 score: 0.035
+✅ Matched number 1 with score 0.547
+[Tile 9,11] Edge count: 75
+   Num 1 score: 0.401
+   Num 2 score: 0.043
+   Num 3 score: -0.068
+   Num 4 score: 0.010
+✅ Matched number 1 with score 0.401
+[Tile 9,12] Edge count: 100
+   Num 1 score: 0.300
+   Num 2 score: 0.008
+   Num 3 score: -0.103
+   Num 4 score: -0.006
+✅ Matched number 1 with score 0.300
+[Tile 9,13] Edge count: 0
+[Tile 9,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 9,14] Edge count: 0
+[Tile 9,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 9,15] Edge count: 0
+[Tile 9,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 9,16] Edge count: 0
+[Tile 9,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 9,17] Edge count: 0
+[Tile 9,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 10,0] Edge count: 0
+[Tile 10,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 10,1] Edge count: 0
+[Tile 10,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 10,2] Edge count: 0
+[Tile 10,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 10,3] Edge count: 0
+[Tile 10,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 10,4] Edge count: 0
+[Tile 10,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 10,5] Edge count: 0
+[Tile 10,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 10,6] Edge count: 75
+   Num 1 score: 0.366
+   Num 2 score: 0.069
+   Num 3 score: -0.068
+   Num 4 score: -0.005
+✅ Matched number 1 with score 0.366
+[Tile 10,7] Edge count: 0
+[Tile 10,7] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 10,8] Edge count: 0
+[Tile 10,8] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 10,9] Edge count: 0
+[Tile 10,9] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 10,10] Edge count: 0
+[Tile 10,10] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 10,11] Edge count: 0
+[Tile 10,11] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 10,12] Edge count: 75
+   Num 1 score: 0.401
+   Num 2 score: 0.069
+   Num 3 score: 0.226
+   Num 4 score: 0.010
+✅ Matched number 1 with score 0.401
+[Tile 10,13] Edge count: 0
+[Tile 10,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 10,14] Edge count: 0
+[Tile 10,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 10,15] Edge count: 0
+[Tile 10,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 10,16] Edge count: 0
+[Tile 10,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 10,17] Edge count: 0
+[Tile 10,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 11,0] Edge count: 0
+[Tile 11,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 11,1] Edge count: 0
+[Tile 11,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 11,2] Edge count: 0
+[Tile 11,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 11,3] Edge count: 0
+[Tile 11,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 11,4] Edge count: 0
+[Tile 11,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 11,5] Edge count: 0
+[Tile 11,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 11,6] Edge count: 45
+   Num 1 score: 0.501
+   Num 2 score: 0.106
+   Num 3 score: -0.023
+   Num 4 score: 0.040
+✅ Matched number 1 with score 0.501
 [Tile 11,7] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,7
-failed to detect: row 11, column 7
+[Tile 11,7] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 11,8] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,8
-failed to detect: row 11, column 8
+[Tile 11,8] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 11,9] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,9
-failed to detect: row 11, column 9
-[Tile 11,10] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
+[Tile 11,9] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 11,10] Edge count: 0
+[Tile 11,10] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 11,11] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,11
-failed to detect: row 11, column 11
-[Tile 11,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,12
-failed to detect: row 11, column 12
+[Tile 11,11] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 11,12] Edge count: 85
+   Num 1 score: 0.170
+   Num 2 score: 0.652
+   Num 3 score: 0.186
+   Num 4 score: 0.148
+✅ Matched number 2 with score 0.652
 [Tile 11,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,13
-failed to detect: row 11, column 13
+[Tile 11,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 11,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,14
-failed to detect: row 11, column 14
+[Tile 11,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 11,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,15
-failed to detect: row 11, column 15
+[Tile 11,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 11,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,16
-failed to detect: row 11, column 16
+[Tile 11,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 11,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 11,17
-failed to detect: row 11, column 17
+[Tile 11,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 12,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 12,0
-failed to detect: row 12, column 0
+[Tile 12,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 12,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 12,1
-failed to detect: row 12, column 1
+[Tile 12,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 12,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 12,2
-failed to detect: row 12, column 2
-[Tile 12,3] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
+[Tile 12,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 12,3] Edge count: 0
+[Tile 12,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 12,4] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 12,4
-failed to detect: row 12, column 4
+[Tile 12,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 12,5] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 12,5
-failed to detect: row 12, column 5
-[Tile 12,6] Edge count: 48
-   Num 1 score: 0.479
+[Tile 12,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 12,6] Edge count: 100
+   Num 1 score: 0.300
+   Num 2 score: 0.031
+   Num 3 score: 0.111
+   Num 4 score: -0.031
+✅ Matched number 1 with score 0.300
+[Tile 12,7] Edge count: 48
+   Num 1 score: 0.482
    Num 2 score: 0.147
-   Num 3 score: -0.036
-   Num 4 score: 0.144
-✅ Matched number 1 with score 0.479
-[Tile 12,7] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
-[Tile 12,8] Edge count: 48
-   Num 1 score: 0.479
-   Num 2 score: 0.147
-   Num 3 score: -0.036
-   Num 4 score: 0.144
-✅ Matched number 1 with score 0.479
+   Num 3 score: -0.005
+   Num 4 score: 0.035
+✅ Matched number 1 with score 0.482
+[Tile 12,8] Edge count: 0
+[Tile 12,8] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 12,9] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 12,9
-failed to detect: row 12, column 9
-[Tile 12,10] Edge count: 75
-   Num 1 score: 0.378
-   Num 2 score: 0.069
-   Num 3 score: 0.209
-   Num 4 score: 0.091
-✅ Matched number 1 with score 0.378
+[Tile 12,9] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 12,10] Edge count: 0
+[Tile 12,10] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 12,11] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 12,11
-failed to detect: row 12, column 11
-[Tile 12,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 12,12
-failed to detect: row 12, column 12
+[Tile 12,11] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 12,12] Edge count: 114
+   Num 1 score: 0.112
+   Num 2 score: 0.387
+   Num 3 score: 0.427
+   Num 4 score: 0.161
+✅ Matched number 3 with score 0.427
 [Tile 12,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 12,13
-failed to detect: row 12, column 13
+[Tile 12,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 12,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 12,14
-failed to detect: row 12, column 14
+[Tile 12,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 12,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 12,15
-failed to detect: row 12, column 15
+[Tile 12,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 12,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 12,16
-failed to detect: row 12, column 16
+[Tile 12,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 12,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 12,17
-failed to detect: row 12, column 17
+[Tile 12,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 13,0] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,0
-failed to detect: row 13, column 0
+[Tile 13,0] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 13,1] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,1
-failed to detect: row 13, column 1
+[Tile 13,1] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 13,2] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,2
-failed to detect: row 13, column 2
-[Tile 13,3] Edge count: 75
-   Num 1 score: 0.353
-   Num 2 score: 0.069
-   Num 3 score: -0.104
-   Num 4 score: 0.072
-✅ Matched number 1 with score 0.353
+[Tile 13,2] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 13,3] Edge count: 0
+[Tile 13,3] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 13,4] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,4
-failed to detect: row 13, column 4
+[Tile 13,4] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 13,5] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,5
-failed to detect: row 13, column 5
-[Tile 13,6] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
-[Tile 13,7] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,7
-failed to detect: row 13, column 7
-[Tile 13,8] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
+[Tile 13,5] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 13,6] Edge count: 0
+[Tile 13,6] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 13,7] Edge count: 75
+   Num 1 score: 0.366
+   Num 2 score: 0.069
+   Num 3 score: -0.068
+   Num 4 score: -0.005
+✅ Matched number 1 with score 0.366
+[Tile 13,8] Edge count: 0
+[Tile 13,8] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 13,9] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,9
-failed to detect: row 13, column 9
-[Tile 13,10] Edge count: 45
-   Num 1 score: 0.499
-   Num 2 score: 0.106
-   Num 3 score: -0.055
-   Num 4 score: 0.154
-✅ Matched number 1 with score 0.499
+[Tile 13,9] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 13,10] Edge count: 0
+[Tile 13,10] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 13,11] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,11
-failed to detect: row 13, column 11
-[Tile 13,12] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,12
-failed to detect: row 13, column 12
+[Tile 13,11] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 13,12] Edge count: 85
+   Num 1 score: 0.170
+   Num 2 score: 0.652
+   Num 3 score: 0.186
+   Num 4 score: 0.148
+✅ Matched number 2 with score 0.652
 [Tile 13,13] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,13
-failed to detect: row 13, column 13
+[Tile 13,13] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 13,14] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,14
-failed to detect: row 13, column 14
+[Tile 13,14] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 13,15] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,15
-failed to detect: row 13, column 15
+[Tile 13,15] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 13,16] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,16
-failed to detect: row 13, column 16
+[Tile 13,16] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 13,17] Edge count: 0
-   Special -1_light score: 0.000
-   Special -1_dark score: 0.000
-   Special 0_light score: 0.000
-   Special 0_dark score: 0.000
-❌ Completely failed to detect tile 13,17
-failed to detect: row 13, column 17
+[Tile 13,17] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 Detected board:
-[-2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2]
-[-2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2]
-[-2, -2, -2, -2, -2, -2, -2, -2, -2, 1, 1, 1, -2, -2, -2, -2, -2, -2]
-[-2, -2, -2, -2, -2, -2, 1, 1, 1, 1, -2, 1, -2, -2, -2, -2, -2, -2]
-[-2, -2, -2, -2, -2, -2, 1, -2, -2, -2, -2, 1, -2, -2, -2, -2, -2, -2]
-[-2, -2, -2, -2, -2, -2, 2, 1, 1, -2, -2, 1, -2, -2, -2, -2, -2, -2]
-[-2, -2, -2, -2, -2, -2, -2, -2, 1, -2, -2, 1, -2, -2, -2, -2, -2, -2]
-[-2, -2, -2, 2, 1, 1, 1, 1, 1, -2, -2, 1, -2, -2, -2, -2, -2, -2]
-[-2, -2, -2, 1, -2, -2, -2, -2, -2, 1, 2, 4, -2, -2, -2, -2, -2, -2]
-[-2, -2, -2, 2, 1, 1, -2, -2, -2, 1, -2, -2, -2, -2, -2, -2, -2, -2]
-[-2, -2, -2, -2, -2, 1, -2, -2, -2, 1, 2, -2, -2, -2, -2, -2, -2, -2]
-[-2, -2, -2, 2, 1, 1, -2, -2, -2, -2, 1, -2, -2, -2, -2, -2, -2, -2]
-[-2, -2, -2, 1, -2, -2, 1, 1, 1, -2, 1, -2, -2, -2, -2, -2, -2, -2]
-[-2, -2, -2, 1, -2, -2, 1, -2, 1, -2, 1, -2, -2, -2, -2, -2, -2, -2]
+[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, 2, 2, -2, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, 1, 0, 2, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, 1, 0, 1, 2, 2, -1, -1, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, 1, 0, 0, 0, 1, -1, -1, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, 2, 1, 1, 0, 2, -1, -1, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, -1, -1, 1, 0, 1, -1, -1, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, 2, 1, 1, 0, 1, 1, 1, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, 1, 0, 0, 0, 0, 0, 1, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, 1, 0, 0, 0, 0, 0, 2, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, 1, 1, 0, 0, 0, 0, 3, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, -1, 1, 0, 0, 0, 0, 2, -1, -1, -1, -1, -1]

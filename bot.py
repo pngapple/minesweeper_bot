@@ -4,6 +4,7 @@ import numpy as np
 import cv2
 from io import BytesIO
 import os
+import shutil
 
 # ---------------------------
 # Config
@@ -12,6 +13,11 @@ TEMPLATE_DIR = "templates"  # folder containing number and special tile template
 TILE_SIZE = 30  # approximate tile size (adjust if needed)
 DEBUG_DIR = "debug_tiles"
 DEBUG_LOG = "debug_log.txt"
+
+
+# Delete old debug folder if it exists
+if os.path.exists(DEBUG_DIR):
+    shutil.rmtree(DEBUG_DIR)
 
 os.makedirs(DEBUG_DIR, exist_ok=True)
 os.makedirs(os.path.join(DEBUG_DIR, "success"), exist_ok=True)
@@ -61,11 +67,13 @@ def extract_tiles(opencv_image, rows, cols):
 def detect_tile(tile_img, r=None, c=None):
     """
     Detect Minesweeper tile:
-      -1: unrevealed
-       0: empty revealed
+      -1: unrevealed (green)
+       0: empty revealed (brown)
        1-8: numbers
     """
-    # 1. Edge detection for number templates
+    # ---------------------------
+    # 1. Edge detection for numbers
+    # ---------------------------
     gray_tile = cv2.cvtColor(tile_img, cv2.COLOR_BGR2GRAY)
     gray_tile = cv2.GaussianBlur(gray_tile, (3, 3), 0)
     edges_tile = cv2.Canny(gray_tile, 50, 150)
@@ -80,7 +88,7 @@ def detect_tile(tile_img, r=None, c=None):
         best_score = -1
 
         for num, template_edges in number_edges.items():
-            resized_template = cv2.resize(template_edges, (w, h))
+            resized_template = cv2.resize(template_edges, (w, h), interpolation=cv2.INTER_NEAREST)
             res = cv2.matchTemplate(edges_tile, resized_template, cv2.TM_CCOEFF_NORMED)
             score = float(np.max(res))
             log(f"   Num {num} score: {score:.3f}")
@@ -91,7 +99,7 @@ def detect_tile(tile_img, r=None, c=None):
         if best_score > 0.25:
             log(f"✅ Matched number {best_num} with score {best_score:.3f}")
             if r is not None and c is not None:
-                cv2.imwrite(f"{DEBUG_DIR}/success/num_r{r}_c{c}.png", tile_img)
+                cv2.imwrite(f"{DEBUG_DIR}/success/num{best_num}_r{r}_c{c}.png", tile_img)
             return best_num
         else:
             log(f"❌ No number match above threshold (best={best_score:.3f})")
@@ -100,28 +108,29 @@ def detect_tile(tile_img, r=None, c=None):
                 cv2.imwrite(f"{DEBUG_DIR}/fail/fail_edges_r{r}_c{c}.png", edges_tile)
             return -2
 
-    # 2. Check special tiles (color match)
-    h_tile, w_tile = tile_img.shape[:2]
-    for num in [-1, 0]:
-        for bg in ["light", "dark"]:
-            template = special_templates[f"{num}_{bg}"]
-            resized_template = cv2.resize(template, (w_tile, h_tile))
-            # Convert tile and template to same color format (BGR)
-            res = cv2.matchTemplate(tile_img, resized_template, cv2.TM_CCOEFF_NORMED)
-            score = float(np.max(res))
-            log(f"   Special {num}_{bg} score: {score:.3f}")
-            if score > 0.3:
-                log(f"✅ Matched special {num}_{bg} with score {score:.3f}")
-                if r is not None and c is not None:
-                    cv2.imwrite(f"{DEBUG_DIR}/success/special_{num}_{bg}_r{r}_c{c}.png", tile_img)
-                return num
+    # ---------------------------
+    # 2. Hue-based detection for special tiles
+    # ---------------------------
+    tile_hsv = cv2.cvtColor(tile_img, cv2.COLOR_BGR2HSV)
+    avg_hue = np.mean(tile_hsv[:, :, 0])  # Hue channel
+    log(f"[Tile {r},{c}] Average hue: {avg_hue:.1f}")
 
-    # 3. If all fails
-    log(f"❌ Completely failed to detect tile {r},{c}")
+    # Thresholds: adjust if needed based on screenshots
+    if 30 < avg_hue < 50:
+        tile_type = -1  # unrevealed green
+        log(f"✅ Detected unrevealed (green) tile")
+    elif 10 < avg_hue < 20:
+        tile_type = 0   # revealed empty (brown)
+        log(f"✅ Detected empty revealed (brown) tile")
+    else:
+        tile_type = -2
+        log(f"❌ Hue-based detection failed")
+
     if r is not None and c is not None:
-        cv2.imwrite(f"{DEBUG_DIR}/fail/fail_other_r{r}_c{c}.png", tile_img)
-        cv2.imwrite(f"{DEBUG_DIR}/fail/fail_other_edges_r{r}_c{c}.png", edges_tile)
-    return -2
+        subdir = "success" if tile_type != -2 else "fail"
+        cv2.imwrite(f"{DEBUG_DIR}/{subdir}/num{tile_type}_r{r}_c{c}.png", tile_img)
+
+    return tile_type
 
 # ---------------------------
 # Main bot
