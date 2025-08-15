@@ -5,6 +5,7 @@ import cv2
 from io import BytesIO
 import os
 import shutil
+from skimage.metrics import structural_similarity as ssim
 
 # ---------------------------
 # Config
@@ -64,6 +65,8 @@ def extract_tiles(opencv_image, rows, cols):
         tiles.append(row_tiles)
     return tiles
 
+from skimage.metrics import structural_similarity as ssim  # Add this at the top of your script
+
 def detect_tile(tile_img, r=None, c=None):
     """
     Detect Minesweeper tile:
@@ -72,7 +75,7 @@ def detect_tile(tile_img, r=None, c=None):
        1-8: numbers
     """
     # ---------------------------
-    # 1. Edge detection for numbers
+    # 1. Edge + grayscale detection for numbers
     # ---------------------------
     gray_tile = cv2.cvtColor(tile_img, cv2.COLOR_BGR2GRAY)
     gray_tile = cv2.GaussianBlur(gray_tile, (3, 3), 0)
@@ -87,16 +90,29 @@ def detect_tile(tile_img, r=None, c=None):
         best_num = None
         best_score = -1
 
-        for num, template_edges in number_edges.items():
-            resized_template = cv2.resize(template_edges, (w, h), interpolation=cv2.INTER_NEAREST)
-            res = cv2.matchTemplate(edges_tile, resized_template, cv2.TM_CCOEFF_NORMED)
-            score = float(np.max(res))
-            log(f"   Num {num} score: {score:.3f}")
+        for num, template_gray in templates.items():
+            # Resize template
+            resized_edge = cv2.resize(number_edges[num], (w, h), interpolation=cv2.INTER_NEAREST)
+            resized_gray = cv2.resize(template_gray, (w, h), interpolation=cv2.INTER_NEAREST)
+
+            # Edge match
+            res_edge = cv2.matchTemplate(edges_tile, resized_edge, cv2.TM_CCOEFF_NORMED)
+            score_edge = float(np.max(res_edge))
+
+            # Grayscale correlation match
+            res_gray = cv2.matchTemplate(gray_tile, resized_gray, cv2.TM_CCOEFF_NORMED)
+            score_gray = float(np.max(res_gray))
+
+            # Combine scores
+            score = 0.5 * score_edge + 0.5 * score_gray
+
+            log(f"   Num {num} scores -> Edge: {score_edge:.3f}, Gray: {score_gray:.3f}, Combined: {score:.3f}")
+
             if score > best_score:
                 best_score = score
                 best_num = num
 
-        if best_score > 0.25:
+        if best_score > 0.5:  # adjust threshold if needed
             log(f"✅ Matched number {best_num} with score {best_score:.3f}")
             if r is not None and c is not None:
                 cv2.imwrite(f"{DEBUG_DIR}/success/num{best_num}_r{r}_c{c}.png", tile_img)
@@ -131,6 +147,7 @@ def detect_tile(tile_img, r=None, c=None):
         cv2.imwrite(f"{DEBUG_DIR}/{subdir}/num{tile_type}_r{r}_c{c}.png", tile_img)
 
     return tile_type
+
 
 # ---------------------------
 # Main bot

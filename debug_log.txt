@@ -179,40 +179,42 @@ Press any key in the OpenCV window to close...
 [Tile 3,5] Edge count: 0
 [Tile 3,5] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
-[Tile 3,6] Edge count: 140
-   Num 1 score: 0.123
-   Num 2 score: 0.489
-   Num 3 score: 0.082
-   Num 4 score: 0.079
-✅ Matched number 2 with score 0.489
-[Tile 3,7] Edge count: 114
-   Num 1 score: 0.156
-   Num 2 score: 0.518
-   Num 3 score: 0.132
-   Num 4 score: 0.113
-✅ Matched number 2 with score 0.518
-[Tile 3,8] Edge count: 126
-   Num 1 score: 0.056
-   Num 2 score: 0.073
-   Num 3 score: 0.019
-   Num 4 score: 0.246
-❌ No number match above threshold (best=0.246)
-failed to detect: row 3, column 8
+[Tile 3,6] Edge count: 0
+[Tile 3,6] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 3,7] Edge count: 0
+[Tile 3,7] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 3,8] Edge count: 0
+[Tile 3,8] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 3,9] Edge count: 0
 [Tile 3,9] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
-[Tile 3,10] Edge count: 0
-[Tile 3,10] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 3,11] Edge count: 0
-[Tile 3,11] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 3,12] Edge count: 0
-[Tile 3,12] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 3,13] Edge count: 0
-[Tile 3,13] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 3,10] Edge count: 140
+   Num 1 scores -> Edge: 0.123, Gray: 0.553, Combined: 0.424
+   Num 2 scores -> Edge: 0.489, Gray: 0.868, Combined: 0.755
+   Num 3 scores -> Edge: 0.082, Gray: 0.614, Combined: 0.454
+   Num 4 scores -> Edge: 0.079, Gray: 0.450, Combined: 0.338
+✅ Matched number 2 with score 0.755
+[Tile 3,11] Edge count: 75
+   Num 1 scores -> Edge: 0.401, Gray: 0.895, Combined: 0.747
+   Num 2 scores -> Edge: 0.043, Gray: 0.521, Combined: 0.378
+   Num 3 scores -> Edge: -0.068, Gray: 0.324, Combined: 0.207
+   Num 4 scores -> Edge: 0.010, Gray: 0.495, Combined: 0.349
+✅ Matched number 1 with score 0.747
+[Tile 3,12] Edge count: 45
+   Num 1 scores -> Edge: 0.501, Gray: 0.911, Combined: 0.788
+   Num 2 scores -> Edge: 0.106, Gray: 0.536, Combined: 0.407
+   Num 3 scores -> Edge: -0.023, Gray: 0.337, Combined: 0.229
+   Num 4 scores -> Edge: 0.040, Gray: 0.509, Combined: 0.368
+✅ Matched number 1 with score 0.788
+[Tile 3,13] Edge count: 100
+   Num 1 scores -> Edge: 0.300, Gray: 0.829, Combined: 0.670
+   Num 2 scores -> Edge: 0.031, Gray: 0.459, Combined: 0.331
+   Num 3 scores -> Edge: 0.120, Gray: 0.322, Combined: 0.261
+   Num 4 scores -> Edge: -0.006, Gray: 0.424, Combined: 0.295
+✅ Matched number 1 with score 0.670
 [Tile 3,14] Edge count: 0
 [Tile 3,14] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
@@ -243,36 +245,45 @@ failed to detect: row 3, column 8
 [Tile 4,5] Edge count: 0
 [Tile 4,5] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
-[Tile 4,6] Edge count: 75
-   Num 1 score: 0.366
-   Num 2 score: 0.069
-   Num 3 score: -0.068
-   Num 4 score: -0.005
-✅ Matched number 1 with score 0.366
-[Tile 4,7] Edge count: 0
-[Tile 4,7] Average hue: 15.0
-✅ Detected empty revealed (brown) tile
+[Tile 4,6] Edge count: 0
+[Tile 4,6] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 4,7] Edge count: 138
+   Num 1 scores -> Edge: 0.085, Gray: 0.560, Combined: 0.418
+   Num 2 scores -> Edge: 0.311, Gray: 0.698, Combined: 0.582
+   Num 3 scores -> Edge: 0.148, Gray: 0.742, Combined: 0.564
+   Num 4 scores -> Edge: 0.104, Gray: 0.571, Combined: 0.431
+✅ Matched number 2 with score 0.582
 [Tile 4,8] Edge count: 114
-   Num 1 score: 0.156
-   Num 2 score: 0.540
-   Num 3 score: 0.377
-   Num 4 score: 0.113
-✅ Matched number 2 with score 0.540
-[Tile 4,9] Edge count: 0
-[Tile 4,9] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 4,10] Edge count: 0
-[Tile 4,10] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+   Num 1 scores -> Edge: 0.156, Gray: 0.582, Combined: 0.454
+   Num 2 scores -> Edge: 0.518, Gray: 0.898, Combined: 0.784
+   Num 3 scores -> Edge: 0.132, Gray: 0.648, Combined: 0.493
+   Num 4 scores -> Edge: 0.113, Gray: 0.455, Combined: 0.353
+✅ Matched number 2 with score 0.784
+[Tile 4,9] Edge count: 45
+   Num 1 scores -> Edge: 0.501, Gray: 0.911, Combined: 0.788
+   Num 2 scores -> Edge: 0.106, Gray: 0.536, Combined: 0.407
+   Num 3 scores -> Edge: -0.023, Gray: 0.337, Combined: 0.229
+   Num 4 scores -> Edge: 0.040, Gray: 0.509, Combined: 0.368
+✅ Matched number 1 with score 0.788
+[Tile 4,10] Edge count: 48
+   Num 1 scores -> Edge: 0.482, Gray: 0.972, Combined: 0.825
+   Num 2 scores -> Edge: 0.098, Gray: 0.611, Combined: 0.457
+   Num 3 scores -> Edge: -0.030, Gray: 0.412, Combined: 0.279
+   Num 4 scores -> Edge: 0.035, Gray: 0.585, Combined: 0.420
+✅ Matched number 1 with score 0.825
 [Tile 4,11] Edge count: 0
-[Tile 4,11] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 4,11] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 4,12] Edge count: 0
-[Tile 4,12] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 4,13] Edge count: 0
-[Tile 4,13] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 4,12] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 4,13] Edge count: 45
+   Num 1 scores -> Edge: 0.501, Gray: 0.911, Combined: 0.788
+   Num 2 scores -> Edge: 0.106, Gray: 0.548, Combined: 0.416
+   Num 3 scores -> Edge: -0.023, Gray: 0.411, Combined: 0.281
+   Num 4 scores -> Edge: 0.040, Gray: 0.520, Combined: 0.376
+✅ Matched number 1 with score 0.788
 [Tile 4,14] Edge count: 0
 [Tile 4,14] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
@@ -303,42 +314,42 @@ failed to detect: row 3, column 8
 [Tile 5,5] Edge count: 0
 [Tile 5,5] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
-[Tile 5,6] Edge count: 45
-   Num 1 score: 0.501
-   Num 2 score: 0.106
-   Num 3 score: -0.023
-   Num 4 score: 0.040
-✅ Matched number 1 with score 0.501
-[Tile 5,7] Edge count: 0
-[Tile 5,7] Average hue: 15.0
+[Tile 5,6] Edge count: 100
+   Num 1 scores -> Edge: 0.331, Gray: 0.855, Combined: 0.698
+   Num 2 scores -> Edge: 0.031, Gray: 0.481, Combined: 0.346
+   Num 3 scores -> Edge: -0.094, Gray: 0.282, Combined: 0.169
+   Num 4 scores -> Edge: -0.018, Gray: 0.483, Combined: 0.333
+✅ Matched number 1 with score 0.698
+[Tile 5,7] Edge count: 48
+   Num 1 scores -> Edge: 0.482, Gray: 0.972, Combined: 0.825
+   Num 2 scores -> Edge: 0.098, Gray: 0.611, Combined: 0.457
+   Num 3 scores -> Edge: -0.030, Gray: 0.412, Combined: 0.279
+   Num 4 scores -> Edge: 0.035, Gray: 0.585, Combined: 0.420
+✅ Matched number 1 with score 0.825
+[Tile 5,8] Edge count: 0
+[Tile 5,8] Average hue: 15.0
 ✅ Detected empty revealed (brown) tile
-[Tile 5,8] Edge count: 48
-   Num 1 score: 0.547
-   Num 2 score: 0.098
-   Num 3 score: -0.005
-   Num 4 score: 0.035
-✅ Matched number 1 with score 0.547
-[Tile 5,9] Edge count: 114
-   Num 1 score: 0.156
-   Num 2 score: 0.518
-   Num 3 score: 0.132
-   Num 4 score: 0.113
-✅ Matched number 2 with score 0.518
-[Tile 5,10] Edge count: 138
-   Num 1 score: 0.058
-   Num 2 score: 0.291
-   Num 3 score: 0.140
-   Num 4 score: 0.115
-✅ Matched number 2 with score 0.291
+[Tile 5,9] Edge count: 0
+[Tile 5,9] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 5,10] Edge count: 0
+[Tile 5,10] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 5,11] Edge count: 0
-[Tile 5,11] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 5,12] Edge count: 0
-[Tile 5,12] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 5,13] Edge count: 0
-[Tile 5,13] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 5,11] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 5,12] Edge count: 48
+   Num 1 scores -> Edge: 0.482, Gray: 0.973, Combined: 0.826
+   Num 2 scores -> Edge: 0.147, Gray: 0.621, Combined: 0.479
+   Num 3 scores -> Edge: -0.005, Gray: 0.420, Combined: 0.292
+   Num 4 scores -> Edge: 0.035, Gray: 0.585, Combined: 0.420
+✅ Matched number 1 with score 0.826
+[Tile 5,13] Edge count: 139
+   Num 1 scores -> Edge: 0.125, Gray: 0.536, Combined: 0.413
+   Num 2 scores -> Edge: 0.471, Gray: 0.862, Combined: 0.744
+   Num 3 scores -> Edge: 0.479, Gray: 0.688, Combined: 0.625
+   Num 4 scores -> Edge: 0.080, Gray: 0.429, Combined: 0.325
+✅ Matched number 2 with score 0.744
 [Tile 5,14] Edge count: 0
 [Tile 5,14] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
@@ -370,11 +381,11 @@ failed to detect: row 3, column 8
 [Tile 6,5] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
 [Tile 6,6] Edge count: 75
-   Num 1 score: 0.366
-   Num 2 score: 0.069
-   Num 3 score: -0.068
-   Num 4 score: -0.005
-✅ Matched number 1 with score 0.366
+   Num 1 scores -> Edge: 0.366, Gray: 0.886, Combined: 0.730
+   Num 2 scores -> Edge: 0.069, Gray: 0.533, Combined: 0.394
+   Num 3 scores -> Edge: -0.068, Gray: 0.338, Combined: 0.217
+   Num 4 scores -> Edge: -0.005, Gray: 0.541, Combined: 0.377
+✅ Matched number 1 with score 0.730
 [Tile 6,7] Edge count: 0
 [Tile 6,7] Average hue: 15.0
 ✅ Detected empty revealed (brown) tile
@@ -384,18 +395,21 @@ failed to detect: row 3, column 8
 [Tile 6,9] Edge count: 0
 [Tile 6,9] Average hue: 15.0
 ✅ Detected empty revealed (brown) tile
-[Tile 6,10] Edge count: 75
-   Num 1 score: 0.401
-   Num 2 score: 0.069
-   Num 3 score: 0.226
-   Num 4 score: 0.010
-✅ Matched number 1 with score 0.401
-[Tile 6,11] Edge count: 0
-[Tile 6,11] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 6,12] Edge count: 0
-[Tile 6,12] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 6,10] Edge count: 0
+[Tile 6,10] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 6,11] Edge count: 48
+   Num 1 scores -> Edge: 0.482, Gray: 0.973, Combined: 0.826
+   Num 2 scores -> Edge: 0.147, Gray: 0.621, Combined: 0.479
+   Num 3 scores -> Edge: -0.005, Gray: 0.420, Combined: 0.292
+   Num 4 scores -> Edge: 0.035, Gray: 0.585, Combined: 0.420
+✅ Matched number 1 with score 0.826
+[Tile 6,12] Edge count: 139
+   Num 1 scores -> Edge: 0.125, Gray: 0.536, Combined: 0.413
+   Num 2 scores -> Edge: 0.471, Gray: 0.862, Combined: 0.744
+   Num 3 scores -> Edge: 0.479, Gray: 0.688, Combined: 0.625
+   Num 4 scores -> Edge: 0.080, Gray: 0.429, Combined: 0.325
+✅ Matched number 2 with score 0.744
 [Tile 6,13] Edge count: 0
 [Tile 6,13] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
@@ -430,35 +444,32 @@ failed to detect: row 3, column 8
 [Tile 7,5] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
 [Tile 7,6] Edge count: 140
-   Num 1 score: 0.097
-   Num 2 score: 0.469
-   Num 3 score: 0.074
-   Num 4 score: 0.068
-✅ Matched number 2 with score 0.469
-[Tile 7,7] Edge count: 75
-   Num 1 score: 0.366
-   Num 2 score: 0.096
-   Num 3 score: 0.216
-   Num 4 score: -0.005
-✅ Matched number 1 with score 0.366
-[Tile 7,8] Edge count: 48
-   Num 1 score: 0.482
-   Num 2 score: 0.147
-   Num 3 score: -0.005
-   Num 4 score: 0.035
-✅ Matched number 1 with score 0.482
+   Num 1 scores -> Edge: 0.097, Gray: 0.544, Combined: 0.410
+   Num 2 scores -> Edge: 0.469, Gray: 0.883, Combined: 0.758
+   Num 3 scores -> Edge: 0.074, Gray: 0.648, Combined: 0.476
+   Num 4 scores -> Edge: 0.068, Gray: 0.470, Combined: 0.349
+✅ Matched number 2 with score 0.758
+[Tile 7,7] Edge count: 48
+   Num 1 scores -> Edge: 0.482, Gray: 0.972, Combined: 0.825
+   Num 2 scores -> Edge: 0.147, Gray: 0.620, Combined: 0.478
+   Num 3 scores -> Edge: -0.005, Gray: 0.415, Combined: 0.289
+   Num 4 scores -> Edge: 0.035, Gray: 0.587, Combined: 0.421
+✅ Matched number 1 with score 0.825
+[Tile 7,8] Edge count: 0
+[Tile 7,8] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 7,9] Edge count: 0
 [Tile 7,9] Average hue: 15.0
 ✅ Detected empty revealed (brown) tile
-[Tile 7,10] Edge count: 85
-   Num 1 score: 0.170
-   Num 2 score: 0.652
-   Num 3 score: 0.186
-   Num 4 score: 0.148
-✅ Matched number 2 with score 0.652
-[Tile 7,11] Edge count: 0
-[Tile 7,11] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 7,10] Edge count: 0
+[Tile 7,10] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 7,11] Edge count: 75
+   Num 1 scores -> Edge: 0.401, Gray: 0.895, Combined: 0.747
+   Num 2 scores -> Edge: 0.069, Gray: 0.535, Combined: 0.395
+   Num 3 scores -> Edge: 0.226, Gray: 0.405, Combined: 0.352
+   Num 4 scores -> Edge: 0.010, Gray: 0.507, Combined: 0.358
+✅ Matched number 1 with score 0.747
 [Tile 7,12] Edge count: 0
 [Tile 7,12] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
@@ -498,30 +509,33 @@ failed to detect: row 3, column 8
 [Tile 8,6] Edge count: 0
 [Tile 8,6] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
-[Tile 8,7] Edge count: 0
-[Tile 8,7] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 8,8] Edge count: 75
-   Num 1 score: 0.366
-   Num 2 score: 0.069
-   Num 3 score: -0.068
-   Num 4 score: -0.005
-✅ Matched number 1 with score 0.366
+[Tile 8,7] Edge count: 45
+   Num 1 scores -> Edge: 0.501, Gray: 0.903, Combined: 0.782
+   Num 2 scores -> Edge: 0.106, Gray: 0.547, Combined: 0.415
+   Num 3 scores -> Edge: -0.023, Gray: 0.350, Combined: 0.238
+   Num 4 scores -> Edge: 0.040, Gray: 0.551, Combined: 0.398
+✅ Matched number 1 with score 0.782
+[Tile 8,8] Edge count: 0
+[Tile 8,8] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 8,9] Edge count: 0
 [Tile 8,9] Average hue: 15.0
 ✅ Detected empty revealed (brown) tile
-[Tile 8,10] Edge count: 75
-   Num 1 score: 0.401
-   Num 2 score: 0.069
-   Num 3 score: 0.226
-   Num 4 score: 0.010
-✅ Matched number 1 with score 0.401
-[Tile 8,11] Edge count: 0
-[Tile 8,11] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 8,12] Edge count: 0
-[Tile 8,12] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 8,10] Edge count: 0
+[Tile 8,10] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 8,11] Edge count: 48
+   Num 1 scores -> Edge: 0.547, Gray: 0.981, Combined: 0.851
+   Num 2 scores -> Edge: 0.098, Gray: 0.613, Combined: 0.458
+   Num 3 scores -> Edge: -0.005, Gray: 0.418, Combined: 0.291
+   Num 4 scores -> Edge: 0.035, Gray: 0.592, Combined: 0.425
+✅ Matched number 1 with score 0.851
+[Tile 8,12] Edge count: 139
+   Num 1 scores -> Edge: 0.098, Gray: 0.540, Combined: 0.407
+   Num 2 scores -> Edge: 0.471, Gray: 0.846, Combined: 0.734
+   Num 3 scores -> Edge: 0.278, Gray: 0.649, Combined: 0.538
+   Num 4 scores -> Edge: 0.091, Gray: 0.399, Combined: 0.307
+✅ Matched number 2 with score 0.734
 [Tile 8,13] Edge count: 0
 [Tile 8,13] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
@@ -555,57 +569,54 @@ failed to detect: row 3, column 8
 [Tile 9,5] Edge count: 0
 [Tile 9,5] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
-[Tile 9,6] Edge count: 140
-   Num 1 score: 0.123
-   Num 2 score: 0.489
-   Num 3 score: 0.082
-   Num 4 score: 0.079
-✅ Matched number 2 with score 0.489
-[Tile 9,7] Edge count: 75
-   Num 1 score: 0.401
-   Num 2 score: 0.043
-   Num 3 score: -0.068
-   Num 4 score: 0.010
-✅ Matched number 1 with score 0.401
-[Tile 9,8] Edge count: 48
-   Num 1 score: 0.482
-   Num 2 score: 0.098
-   Num 3 score: -0.030
-   Num 4 score: 0.035
-✅ Matched number 1 with score 0.482
+[Tile 9,6] Edge count: 0
+[Tile 9,6] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 9,7] Edge count: 114
+   Num 1 scores -> Edge: 0.126, Gray: 0.573, Combined: 0.439
+   Num 2 scores -> Edge: 0.540, Gray: 0.909, Combined: 0.798
+   Num 3 scores -> Edge: 0.132, Gray: 0.661, Combined: 0.502
+   Num 4 scores -> Edge: 0.101, Gray: 0.498, Combined: 0.379
+✅ Matched number 2 with score 0.798
+[Tile 9,8] Edge count: 0
+[Tile 9,8] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 9,9] Edge count: 0
 [Tile 9,9] Average hue: 15.0
 ✅ Detected empty revealed (brown) tile
-[Tile 9,10] Edge count: 48
-   Num 1 score: 0.547
-   Num 2 score: 0.098
-   Num 3 score: -0.005
-   Num 4 score: 0.035
-✅ Matched number 1 with score 0.547
-[Tile 9,11] Edge count: 75
-   Num 1 score: 0.401
-   Num 2 score: 0.043
-   Num 3 score: -0.068
-   Num 4 score: 0.010
-✅ Matched number 1 with score 0.401
-[Tile 9,12] Edge count: 100
-   Num 1 score: 0.300
-   Num 2 score: 0.008
-   Num 3 score: -0.103
-   Num 4 score: -0.006
-✅ Matched number 1 with score 0.300
+[Tile 9,10] Edge count: 0
+[Tile 9,10] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 9,11] Edge count: 0
+[Tile 9,11] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 9,12] Edge count: 45
+   Num 1 scores -> Edge: 0.501, Gray: 0.911, Combined: 0.788
+   Num 2 scores -> Edge: 0.106, Gray: 0.548, Combined: 0.416
+   Num 3 scores -> Edge: -0.023, Gray: 0.411, Combined: 0.281
+   Num 4 scores -> Edge: 0.040, Gray: 0.520, Combined: 0.376
+✅ Matched number 1 with score 0.788
 [Tile 9,13] Edge count: 0
 [Tile 9,13] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
-[Tile 9,14] Edge count: 0
-[Tile 9,14] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 9,15] Edge count: 0
-[Tile 9,15] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 9,16] Edge count: 0
-[Tile 9,16] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 9,14] Edge count: 140
+   Num 1 scores -> Edge: 0.123, Gray: 0.553, Combined: 0.424
+   Num 2 scores -> Edge: 0.489, Gray: 0.868, Combined: 0.755
+   Num 3 scores -> Edge: 0.082, Gray: 0.614, Combined: 0.454
+   Num 4 scores -> Edge: 0.079, Gray: 0.450, Combined: 0.338
+✅ Matched number 2 with score 0.755
+[Tile 9,15] Edge count: 75
+   Num 1 scores -> Edge: 0.401, Gray: 0.895, Combined: 0.747
+   Num 2 scores -> Edge: 0.043, Gray: 0.521, Combined: 0.378
+   Num 3 scores -> Edge: -0.068, Gray: 0.324, Combined: 0.207
+   Num 4 scores -> Edge: 0.010, Gray: 0.495, Combined: 0.349
+✅ Matched number 1 with score 0.747
+[Tile 9,16] Edge count: 140
+   Num 1 scores -> Edge: 0.097, Gray: 0.554, Combined: 0.417
+   Num 2 scores -> Edge: 0.469, Gray: 0.870, Combined: 0.750
+   Num 3 scores -> Edge: 0.074, Gray: 0.665, Combined: 0.488
+   Num 4 scores -> Edge: 0.090, Gray: 0.416, Combined: 0.318
+✅ Matched number 2 with score 0.750
 [Tile 9,17] Edge count: 0
 [Tile 9,17] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
@@ -627,45 +638,60 @@ failed to detect: row 3, column 8
 [Tile 10,5] Edge count: 0
 [Tile 10,5] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
-[Tile 10,6] Edge count: 75
-   Num 1 score: 0.366
-   Num 2 score: 0.069
-   Num 3 score: -0.068
-   Num 4 score: -0.005
-✅ Matched number 1 with score 0.366
-[Tile 10,7] Edge count: 0
-[Tile 10,7] Average hue: 15.0
-✅ Detected empty revealed (brown) tile
-[Tile 10,8] Edge count: 0
-[Tile 10,8] Average hue: 15.0
-✅ Detected empty revealed (brown) tile
-[Tile 10,9] Edge count: 0
-[Tile 10,9] Average hue: 15.0
-✅ Detected empty revealed (brown) tile
+[Tile 10,6] Edge count: 0
+[Tile 10,6] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 10,7] Edge count: 140
+   Num 1 scores -> Edge: 0.097, Gray: 0.544, Combined: 0.410
+   Num 2 scores -> Edge: 0.469, Gray: 0.883, Combined: 0.758
+   Num 3 scores -> Edge: 0.074, Gray: 0.648, Combined: 0.476
+   Num 4 scores -> Edge: 0.068, Gray: 0.470, Combined: 0.349
+✅ Matched number 2 with score 0.758
+[Tile 10,8] Edge count: 75
+   Num 1 scores -> Edge: 0.366, Gray: 0.883, Combined: 0.728
+   Num 2 scores -> Edge: 0.096, Gray: 0.547, Combined: 0.412
+   Num 3 scores -> Edge: 0.216, Gray: 0.368, Combined: 0.323
+   Num 4 scores -> Edge: -0.005, Gray: 0.521, Combined: 0.363
+✅ Matched number 1 with score 0.728
+[Tile 10,9] Edge count: 48
+   Num 1 scores -> Edge: 0.482, Gray: 0.973, Combined: 0.826
+   Num 2 scores -> Edge: 0.147, Gray: 0.621, Combined: 0.479
+   Num 3 scores -> Edge: -0.005, Gray: 0.416, Combined: 0.290
+   Num 4 scores -> Edge: 0.035, Gray: 0.588, Combined: 0.422
+✅ Matched number 1 with score 0.826
 [Tile 10,10] Edge count: 0
 [Tile 10,10] Average hue: 15.0
 ✅ Detected empty revealed (brown) tile
 [Tile 10,11] Edge count: 0
 [Tile 10,11] Average hue: 15.0
 ✅ Detected empty revealed (brown) tile
-[Tile 10,12] Edge count: 75
-   Num 1 score: 0.401
-   Num 2 score: 0.069
-   Num 3 score: 0.226
-   Num 4 score: 0.010
-✅ Matched number 1 with score 0.401
-[Tile 10,13] Edge count: 0
-[Tile 10,13] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 10,14] Edge count: 0
-[Tile 10,14] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 10,12] Edge count: 48
+   Num 1 scores -> Edge: 0.547, Gray: 0.981, Combined: 0.851
+   Num 2 scores -> Edge: 0.098, Gray: 0.611, Combined: 0.457
+   Num 3 scores -> Edge: -0.005, Gray: 0.416, Combined: 0.290
+   Num 4 scores -> Edge: 0.035, Gray: 0.592, Combined: 0.424
+✅ Matched number 1 with score 0.851
+[Tile 10,13] Edge count: 45
+   Num 1 scores -> Edge: 0.501, Gray: 0.911, Combined: 0.788
+   Num 2 scores -> Edge: 0.106, Gray: 0.536, Combined: 0.407
+   Num 3 scores -> Edge: -0.023, Gray: 0.337, Combined: 0.229
+   Num 4 scores -> Edge: 0.040, Gray: 0.509, Combined: 0.368
+✅ Matched number 1 with score 0.788
+[Tile 10,14] Edge count: 48
+   Num 1 scores -> Edge: 0.482, Gray: 0.972, Combined: 0.825
+   Num 2 scores -> Edge: 0.098, Gray: 0.611, Combined: 0.457
+   Num 3 scores -> Edge: -0.030, Gray: 0.412, Combined: 0.279
+   Num 4 scores -> Edge: 0.035, Gray: 0.585, Combined: 0.420
+✅ Matched number 1 with score 0.825
 [Tile 10,15] Edge count: 0
-[Tile 10,15] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 10,16] Edge count: 0
-[Tile 10,16] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 10,15] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 10,16] Edge count: 114
+   Num 1 scores -> Edge: 0.156, Gray: 0.582, Combined: 0.454
+   Num 2 scores -> Edge: 0.540, Gray: 0.910, Combined: 0.799
+   Num 3 scores -> Edge: 0.377, Gray: 0.722, Combined: 0.619
+   Num 4 scores -> Edge: 0.113, Gray: 0.466, Combined: 0.360
+✅ Matched number 2 with score 0.799
 [Tile 10,17] Edge count: 0
 [Tile 10,17] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
@@ -687,45 +713,45 @@ failed to detect: row 3, column 8
 [Tile 11,5] Edge count: 0
 [Tile 11,5] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
-[Tile 11,6] Edge count: 45
-   Num 1 score: 0.501
-   Num 2 score: 0.106
-   Num 3 score: -0.023
-   Num 4 score: 0.040
-✅ Matched number 1 with score 0.501
+[Tile 11,6] Edge count: 0
+[Tile 11,6] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 11,7] Edge count: 0
-[Tile 11,7] Average hue: 15.0
-✅ Detected empty revealed (brown) tile
+[Tile 11,7] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 11,8] Edge count: 0
-[Tile 11,8] Average hue: 15.0
-✅ Detected empty revealed (brown) tile
-[Tile 11,9] Edge count: 0
-[Tile 11,9] Average hue: 15.0
-✅ Detected empty revealed (brown) tile
+[Tile 11,8] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 11,9] Edge count: 114
+   Num 1 scores -> Edge: 0.126, Gray: 0.573, Combined: 0.439
+   Num 2 scores -> Edge: 0.540, Gray: 0.909, Combined: 0.798
+   Num 3 scores -> Edge: 0.132, Gray: 0.661, Combined: 0.502
+   Num 4 scores -> Edge: 0.101, Gray: 0.498, Combined: 0.379
+✅ Matched number 2 with score 0.798
 [Tile 11,10] Edge count: 0
 [Tile 11,10] Average hue: 15.0
 ✅ Detected empty revealed (brown) tile
 [Tile 11,11] Edge count: 0
 [Tile 11,11] Average hue: 15.0
 ✅ Detected empty revealed (brown) tile
-[Tile 11,12] Edge count: 85
-   Num 1 score: 0.170
-   Num 2 score: 0.652
-   Num 3 score: 0.186
-   Num 4 score: 0.148
-✅ Matched number 2 with score 0.652
+[Tile 11,12] Edge count: 0
+[Tile 11,12] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 11,13] Edge count: 0
-[Tile 11,13] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 11,13] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 11,14] Edge count: 0
-[Tile 11,14] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 11,14] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 11,15] Edge count: 0
-[Tile 11,15] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 11,16] Edge count: 0
-[Tile 11,16] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 11,15] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 11,16] Edge count: 45
+   Num 1 scores -> Edge: 0.501, Gray: 0.911, Combined: 0.788
+   Num 2 scores -> Edge: 0.106, Gray: 0.548, Combined: 0.416
+   Num 3 scores -> Edge: -0.023, Gray: 0.411, Combined: 0.281
+   Num 4 scores -> Edge: 0.040, Gray: 0.520, Combined: 0.376
+✅ Matched number 1 with score 0.788
 [Tile 11,17] Edge count: 0
 [Tile 11,17] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
@@ -747,51 +773,57 @@ failed to detect: row 3, column 8
 [Tile 12,5] Edge count: 0
 [Tile 12,5] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
-[Tile 12,6] Edge count: 100
-   Num 1 score: 0.300
-   Num 2 score: 0.031
-   Num 3 score: 0.111
-   Num 4 score: -0.031
-✅ Matched number 1 with score 0.300
-[Tile 12,7] Edge count: 48
-   Num 1 score: 0.482
-   Num 2 score: 0.147
-   Num 3 score: -0.005
-   Num 4 score: 0.035
-✅ Matched number 1 with score 0.482
+[Tile 12,6] Edge count: 0
+[Tile 12,6] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 12,7] Edge count: 0
+[Tile 12,7] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 12,8] Edge count: 0
-[Tile 12,8] Average hue: 15.0
+[Tile 12,8] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 12,9] Edge count: 138
+   Num 1 scores -> Edge: 0.058, Gray: 0.552, Combined: 0.404
+   Num 2 scores -> Edge: 0.291, Gray: 0.711, Combined: 0.585
+   Num 3 scores -> Edge: 0.140, Gray: 0.773, Combined: 0.583
+   Num 4 scores -> Edge: 0.093, Gray: 0.589, Combined: 0.440
+✅ Matched number 2 with score 0.585
+[Tile 12,10] Edge count: 75
+   Num 1 scores -> Edge: 0.366, Gray: 0.883, Combined: 0.728
+   Num 2 scores -> Edge: 0.096, Gray: 0.547, Combined: 0.412
+   Num 3 scores -> Edge: 0.216, Gray: 0.368, Combined: 0.323
+   Num 4 scores -> Edge: -0.005, Gray: 0.521, Combined: 0.363
+✅ Matched number 1 with score 0.728
+[Tile 12,11] Edge count: 48
+   Num 1 scores -> Edge: 0.482, Gray: 0.973, Combined: 0.826
+   Num 2 scores -> Edge: 0.147, Gray: 0.621, Combined: 0.479
+   Num 3 scores -> Edge: -0.005, Gray: 0.416, Combined: 0.290
+   Num 4 scores -> Edge: 0.035, Gray: 0.588, Combined: 0.422
+✅ Matched number 1 with score 0.826
+[Tile 12,12] Edge count: 0
+[Tile 12,12] Average hue: 15.0
 ✅ Detected empty revealed (brown) tile
-[Tile 12,9] Edge count: 0
-[Tile 12,9] Average hue: 15.0
-✅ Detected empty revealed (brown) tile
-[Tile 12,10] Edge count: 0
-[Tile 12,10] Average hue: 15.0
-✅ Detected empty revealed (brown) tile
-[Tile 12,11] Edge count: 0
-[Tile 12,11] Average hue: 15.0
-✅ Detected empty revealed (brown) tile
-[Tile 12,12] Edge count: 114
-   Num 1 score: 0.112
-   Num 2 score: 0.387
-   Num 3 score: 0.427
-   Num 4 score: 0.161
-✅ Matched number 3 with score 0.427
 [Tile 12,13] Edge count: 0
-[Tile 12,13] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 12,13] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 12,14] Edge count: 0
-[Tile 12,14] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 12,14] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 12,15] Edge count: 0
-[Tile 12,15] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 12,16] Edge count: 0
-[Tile 12,16] Average hue: 40.0
-✅ Detected unrevealed (green) tile
-[Tile 12,17] Edge count: 0
-[Tile 12,17] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 12,15] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
+[Tile 12,16] Edge count: 48
+   Num 1 scores -> Edge: 0.547, Gray: 0.981, Combined: 0.851
+   Num 2 scores -> Edge: 0.098, Gray: 0.611, Combined: 0.457
+   Num 3 scores -> Edge: -0.005, Gray: 0.416, Combined: 0.290
+   Num 4 scores -> Edge: 0.035, Gray: 0.592, Combined: 0.424
+✅ Matched number 1 with score 0.851
+[Tile 12,17] Edge count: 45
+   Num 1 scores -> Edge: 0.501, Gray: 0.911, Combined: 0.788
+   Num 2 scores -> Edge: 0.106, Gray: 0.536, Combined: 0.407
+   Num 3 scores -> Edge: -0.023, Gray: 0.337, Combined: 0.229
+   Num 4 scores -> Edge: 0.040, Gray: 0.509, Combined: 0.368
+✅ Matched number 1 with score 0.788
 [Tile 13,0] Edge count: 0
 [Tile 13,0] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
@@ -813,57 +845,54 @@ failed to detect: row 3, column 8
 [Tile 13,6] Edge count: 0
 [Tile 13,6] Average hue: 40.0
 ✅ Detected unrevealed (green) tile
-[Tile 13,7] Edge count: 75
-   Num 1 score: 0.366
-   Num 2 score: 0.069
-   Num 3 score: -0.068
-   Num 4 score: -0.005
-✅ Matched number 1 with score 0.366
+[Tile 13,7] Edge count: 0
+[Tile 13,7] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 13,8] Edge count: 0
-[Tile 13,8] Average hue: 15.0
-✅ Detected empty revealed (brown) tile
+[Tile 13,8] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 13,9] Edge count: 0
-[Tile 13,9] Average hue: 15.0
-✅ Detected empty revealed (brown) tile
+[Tile 13,9] Average hue: 40.0
+✅ Detected unrevealed (green) tile
 [Tile 13,10] Edge count: 0
-[Tile 13,10] Average hue: 15.0
+[Tile 13,10] Average hue: 40.0
+✅ Detected unrevealed (green) tile
+[Tile 13,11] Edge count: 75
+   Num 1 scores -> Edge: 0.366, Gray: 0.886, Combined: 0.730
+   Num 2 scores -> Edge: 0.069, Gray: 0.533, Combined: 0.394
+   Num 3 scores -> Edge: -0.068, Gray: 0.338, Combined: 0.217
+   Num 4 scores -> Edge: -0.005, Gray: 0.541, Combined: 0.377
+✅ Matched number 1 with score 0.730
+[Tile 13,12] Edge count: 0
+[Tile 13,12] Average hue: 15.0
 ✅ Detected empty revealed (brown) tile
-[Tile 13,11] Edge count: 0
-[Tile 13,11] Average hue: 15.0
-✅ Detected empty revealed (brown) tile
-[Tile 13,12] Edge count: 85
-   Num 1 score: 0.170
-   Num 2 score: 0.652
-   Num 3 score: 0.186
-   Num 4 score: 0.148
-✅ Matched number 2 with score 0.652
 [Tile 13,13] Edge count: 0
-[Tile 13,13] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 13,13] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 13,14] Edge count: 0
-[Tile 13,14] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 13,14] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 13,15] Edge count: 0
-[Tile 13,15] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 13,15] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 13,16] Edge count: 0
-[Tile 13,16] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 13,16] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 [Tile 13,17] Edge count: 0
-[Tile 13,17] Average hue: 40.0
-✅ Detected unrevealed (green) tile
+[Tile 13,17] Average hue: 15.0
+✅ Detected empty revealed (brown) tile
 Detected board:
 [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
 [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
 [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, -1, -1, 2, 2, -2, -1, -1, -1, -1, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, -1, -1, 1, 0, 2, -1, -1, -1, -1, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, -1, -1, 1, 0, 1, 2, 2, -1, -1, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, -1, -1, 1, 0, 0, 0, 1, -1, -1, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, -1, -1, 2, 1, 1, 0, 2, -1, -1, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, -1, -1, -1, -1, 1, 0, 1, -1, -1, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, -1, -1, 2, 1, 1, 0, 1, 1, 1, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, -1, -1, 1, 0, 0, 0, 0, 0, 1, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, -1, -1, 1, 0, 0, 0, 0, 0, 2, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, -1, -1, 1, 1, 0, 0, 0, 0, 3, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, -1, -1, -1, 1, 0, 0, 0, 0, 2, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 2, 1, 1, 1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, -1, 2, 2, 1, 1, 0, 0, 1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, 1, 1, 0, 0, 0, 0, 1, 2, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, 1, 0, 0, 0, 0, 1, 2, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, 2, 1, 0, 0, 0, 1, -1, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, -1, 1, 0, 0, 0, 1, 2, -1, -1, -1, -1, -1]
+[-1, -1, -1, -1, -1, -1, -1, 2, 0, 0, 0, 0, 1, -1, 2, 1, 2, -1]
+[-1, -1, -1, -1, -1, -1, -1, 2, 1, 1, 0, 0, 1, 1, 1, 0, 2, -1]
+[-1, -1, -1, -1, -1, -1, -1, -1, -1, 2, 0, 0, 0, 0, 0, 0, 1, -1]
+[-1, -1, -1, -1, -1, -1, -1, -1, -1, 2, 1, 1, 0, 0, 0, 0, 1, 1]
+[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, 0, 0, 0, 0, 0, 0]
