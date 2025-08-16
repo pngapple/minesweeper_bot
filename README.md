@@ -15,7 +15,7 @@ Features:
 
 Demo:
 
-- [Watch demo video](https://youtu.be/xjz0Xv_d9kg)
+- [Watch demo video](https://youtu.be/YKCe-770lT0)
 
 Installation:
 
@@ -63,6 +63,7 @@ Known Issues / Improvements:
 - HSV thresholds for unrevealed/empty tiles may vary by theme or lighting
 - Solver currently supports basic deterministic rules (no probability-based solving yet)
 - Templates for numbers 1–5 are included — extend to 6–8 for better accuracy
+- Solver will become stuck if the board can not be solved algorithmically
 
 License:
 MIT License
