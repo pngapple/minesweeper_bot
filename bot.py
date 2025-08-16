@@ -12,6 +12,7 @@ from skimage.metrics import structural_similarity as ssim
 # ---------------------------
 TEMPLATE_DIR = "templates"  # folder containing number and special tile templates
 TILE_SIZE = 30  # approximate tile size (adjust if needed)
+NUM_MINES = 40 
 DEBUG_DIR = "debug_tiles"
 DEBUG_LOG = "debug_log.txt"
 
@@ -38,7 +39,7 @@ def log(msg):
 # Numbers 1-8
 templates = {}
 number_edges = {}
-for i in range(1, 5):  # adjust to 1-8 if needed
+for i in range(1, 6):  # adjust to 1-8 if needed
     path = os.path.join(TEMPLATE_DIR, f"{i}.png")
     templates[i] = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
     number_edges[i] = cv2.Canny(templates[i], 50, 150)
@@ -68,85 +69,70 @@ def extract_tiles(opencv_image, rows, cols):
 from skimage.metrics import structural_similarity as ssim  # Add this at the top of your script
 
 def detect_tile(tile_img, r=None, c=None):
-    """
-    Detect Minesweeper tile:
-      -1: unrevealed (green)
-       0: empty revealed (brown)
-       1-8: numbers
-    """
-    # ---------------------------
-    # 1. Edge + grayscale detection for numbers
-    # ---------------------------
     gray_tile = cv2.cvtColor(tile_img, cv2.COLOR_BGR2GRAY)
     gray_tile = cv2.GaussianBlur(gray_tile, (3, 3), 0)
+    h, w = gray_tile.shape
+
+    # Only attempt number detection if edges exist
     edges_tile = cv2.Canny(gray_tile, 50, 150)
-    h, w = edges_tile.shape
-
-    edge_count = cv2.countNonZero(edges_tile)
-    log(f"[Tile {r},{c}] Edge count: {edge_count}")
-
-    min_edge_pixels = 20
-    if edge_count > min_edge_pixels:
+    if cv2.countNonZero(edges_tile) > 20:
         best_num = None
         best_score = -1
-
         for num, template_gray in templates.items():
-            # Resize template
-            resized_edge = cv2.resize(number_edges[num], (w, h), interpolation=cv2.INTER_NEAREST)
-            resized_gray = cv2.resize(template_gray, (w, h), interpolation=cv2.INTER_NEAREST)
-
-            # Edge match
-            res_edge = cv2.matchTemplate(edges_tile, resized_edge, cv2.TM_CCOEFF_NORMED)
-            score_edge = float(np.max(res_edge))
-
-            # Grayscale correlation match
-            res_gray = cv2.matchTemplate(gray_tile, resized_gray, cv2.TM_CCOEFF_NORMED)
-            score_gray = float(np.max(res_gray))
-
-            # Combine scores
-            score = 0.5 * score_edge + 0.5 * score_gray
-
-            log(f"   Num {num} scores -> Edge: {score_edge:.3f}, Gray: {score_gray:.3f}, Combined: {score:.3f}")
-
+            resized_template = cv2.resize(template_gray, (w, h), interpolation=cv2.INTER_NEAREST)
+            score = ssim(gray_tile, resized_template)
+            log(f"   Num {num} SSIM score: {score:.3f}")
             if score > best_score:
                 best_score = score
                 best_num = num
 
-        if best_score > 0.5:  # adjust threshold if needed
-            log(f"✅ Matched number {best_num} with score {best_score:.3f}")
+        if best_score > 0.6:  # adjust threshold if needed
+            log(f"[Tile {r},{c}]✅ Matched number {best_num} with SSIM {best_score:.3f}")
             if r is not None and c is not None:
                 cv2.imwrite(f"{DEBUG_DIR}/success/num{best_num}_r{r}_c{c}.png", tile_img)
             return best_num
         else:
-            log(f"❌ No number match above threshold (best={best_score:.3f})")
+            log(f"❌ Number detection failed (best SSIM {best_score:.3f})")
             if r is not None and c is not None:
                 cv2.imwrite(f"{DEBUG_DIR}/fail/fail_num_r{r}_c{c}.png", tile_img)
-                cv2.imwrite(f"{DEBUG_DIR}/fail/fail_edges_r{r}_c{c}.png", edges_tile)
             return -2
 
-    # ---------------------------
-    # 2. Hue-based detection for special tiles
-    # ---------------------------
+    # Hue-based detection for special tiles
     tile_hsv = cv2.cvtColor(tile_img, cv2.COLOR_BGR2HSV)
-    avg_hue = np.mean(tile_hsv[:, :, 0])  # Hue channel
-    log(f"[Tile {r},{c}] Average hue: {avg_hue:.1f}")
-
-    # Thresholds: adjust if needed based on screenshots
+    avg_hue = np.mean(tile_hsv[:, :, 0])
     if 30 < avg_hue < 50:
-        tile_type = -1  # unrevealed green
-        log(f"✅ Detected unrevealed (green) tile")
+        tile_type = -1
     elif 10 < avg_hue < 20:
-        tile_type = 0   # revealed empty (brown)
-        log(f"✅ Detected empty revealed (brown) tile")
+        tile_type = 0
     else:
         tile_type = -2
-        log(f"❌ Hue-based detection failed")
 
     if r is not None and c is not None:
         subdir = "success" if tile_type != -2 else "fail"
         cv2.imwrite(f"{DEBUG_DIR}/{subdir}/num{tile_type}_r{r}_c{c}.png", tile_img)
 
     return tile_type
+
+def surrounding_vals(detected_board, x, y):
+    return [[detected_board[y-1][x-1], detected_board[y-1][x], detected_board[y-1][x+1]],
+            [detected_board[y][x-1],None,detected_board[y][x+1]],
+            [detected_board[y+1][x-1], detected_board[y+1][x], detected_board[y+1][x+1]]]
+
+def click_tile(page, bounding_box, x, y, tile_size):
+    """
+    Clicks on the Minesweeper canvas at tile (x, y).
+    - page: Playwright page object
+    - canvas_selector: CSS selector for the canvas element
+    - x, y: tile coordinates (not pixels)
+    - tile_size: size of each tile in pixels
+    """
+    # Convert tile coords -> pixel coords (center of the tile)
+    click_x = bounding_box["x"] + (x-1) * tile_size + tile_size // 2
+    click_y = bounding_box["y"] + (y-1) * tile_size + tile_size // 2
+
+    # Perform click
+    page.mouse.click(click_x, click_y)
+    print(f"Clicked tile {x}, {y}")
 
 
 # ---------------------------
@@ -193,33 +179,66 @@ with sync_playwright() as p:
     page.wait_for_timeout(1000)
     canvas_screenshot = canvas.screenshot()
 
-    # Convert to OpenCV
-    image = Image.open(BytesIO(canvas_screenshot))
-    opencv_image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
+    mine_coords = set()
 
-    tiles = extract_tiles(opencv_image, rows, cols)
+    while len(mine_coords) < NUM_MINES:
+        # Convert to OpenCV
+        image = Image.open(BytesIO(canvas_screenshot))
+        opencv_image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
 
-    # Optionally display board
-    cv2.imshow("Board", opencv_image)
-    log("Press any key in the OpenCV window to close...")
-    cv2.waitKey(0)
+        tiles = extract_tiles(opencv_image, rows, cols)
 
-    # Detect board numbers
-    board_numbers = []
-    for r in range(rows):
-        row_numbers = []
-        for c in range(cols):
-            num = detect_tile(tiles[r][c], r, c)
-            if num == -2:
-                log(f"failed to detect: row {r}, column {c}")
-            row_numbers.append(num)
-        board_numbers.append(row_numbers)
+        # # Optionally display board
+        # cv2.imshow("Board", opencv_image)
+        # log("Press any key in the OpenCV window to close...")
+        # cv2.waitKey(0)
 
-    # Print detected board
-    log("Detected board:")
-    for row in board_numbers:
-        log(str(row))
+        # Detect board numbers
+        board_numbers = [[0] * (cols + 2)]  # top border
 
+        for r in range(rows):
+            row_numbers = [0]  # left border
+            for c in range(cols):
+                num = detect_tile(tiles[r][c], r, c)
+                if num == -2:
+                    log(f"failed to detect: row {r}, column {c}")
+                row_numbers.append(num)
+            row_numbers.append(0)  # right border
+            board_numbers.append(row_numbers)
+
+        board_numbers.append([0] * (cols + 2))  # bottom border
+
+        # Print detected board
+        log("Detected board:")
+        for row in board_numbers:
+            log(str(row))
+        for y in range(1,rows+1):
+            for x in range(1,cols+1):
+                if board_numbers[y][x] > 0:
+                    adj_unknown = []
+                    adj_mines = []
+                    surroundings = surrounding_vals(board_numbers, x, y)
+                    for i in range(3):
+                        for j in range(3):
+                            if surroundings[i][j] == None:
+                                continue
+                            elif (y + i - 1, x + j - 1) in mine_coords:
+                                adj_mines.append((i,j))
+                            elif surroundings[i][j] == -1:
+                                adj_unknown.append((i,j))
+                    # If the full capacity of the block has been reached including unknowns, then everything adjacent is a mine
+                    if len(adj_mines) + len(adj_unknown) == board_numbers[y][x]:
+                        for value in adj_unknown:
+                            mine_coords.add((y + value[0] - 1, x + value[1] - 1))
+                    # If all the mines have been found, then everything thats unknown is safe
+                    if len(adj_mines) == board_numbers[y][x]:
+                        for value in adj_unknown:
+                            click_tile(page, box, x + value[1] - 1, y + value[0] - 1, TILE_SIZE)
+                            page.wait_for_timeout(10)
+        page.wait_for_timeout(200)
+        canvas_screenshot = canvas.screenshot()
+
+    input("Press Enter to Close")
     cv2.destroyAllWindows()
     browser.close()
     log_file.close()
