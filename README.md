@@ -15,7 +15,7 @@ Features:
 
 Demo:
 
-- Add a demo.gif or video showing gameplay here if desired
+- [Watch demo video](https://youtu.be/xjz0Xv_d9kg)
 
 Installation:
 
@@ -54,7 +54,6 @@ minesweeper-bot/
 │── bot.py # Main bot script
 │── templates/ # Template images for numbers and tiles
 │── debug_tiles/ # Auto-saved debug crops of recognized tiles
-│── demo.gif # Example gameplay demo (optional)
 │── requirements.txt # Dependencies
 │── README.md # Project documentation
 
